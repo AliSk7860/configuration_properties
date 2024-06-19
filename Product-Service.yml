@@ -9,6 +9,9 @@ spring:
     class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/aliit_ecomm
 
+server:
+ port: 8081
+
   jpa:
     hibernate:
       ddl-auto: update
