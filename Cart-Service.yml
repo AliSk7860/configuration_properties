@@ -4,9 +4,10 @@ spring:
       client:
         url: http://localhost:1111/
   datasource:
-    username: ashokit
-    password: AshokIT@123
-    url: jdbc:mysql://localhost:3306/ashokit_ecomm
+    username: root
+    password: root
+    class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/aliit_ecomm
 
   jpa:
     hibernate:
