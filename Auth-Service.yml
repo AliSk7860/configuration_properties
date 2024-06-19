@@ -20,14 +20,6 @@ management:
       exposure:
         include: '*'
 
-server:
- port: 8081
-    
-management:
-  endpoints:
-    web:
-      exposure:
-        include: '*'
 
 
 
